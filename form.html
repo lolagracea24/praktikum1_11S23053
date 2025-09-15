@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulir Input Pengguna</title>
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td><img src="./img/logo.png" alt="logo" width="100" /></td>
+          <td>
+            <h1 style="margin: 0">Catatan Teknologi</h1>
+            <br />
+          </td>
+          <br />
+        </tr>
+      </table>
+
+      <nav aria-label="Menu utama">
+        <table>
+          <tr>
+            <ul>
+              <td><a href="blog.html">Beranda</a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a href="cv.html">Tentang Saya</a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a href="tabel.html">Tabel Perolehan Nilai</a></td>
+            </ul>
+          </tr>
+        </table>
+      </nav>
+      <hr />
+    </header>
+    <h2>Formulir Input Pengguna</h2>
+    <form>
+      <label for="nama">Nama Lengkap:</label><br />
+      <input type="text" id="nama" name="nama" required /><br /><br />
+
+      Jenis Kelamin:<br />
+      <input
+        type="radio"
+        id="pria"
+        name="jenis_kelamin"
+        value="Pria"
+        required
+      />
+      <label for="pria">Pria</label>
+      <input type="radio" id="wanita" name="jenis_kelamin" value="Wanita" />
+      <label for="wanita">Wanita</label><br /><br />
+
+      <label for="tempat_lahir">Tempat Lahir:</label><br />
+      <input
+        type="text"
+        id="tempat_lahir"
+        name="tempat_lahir"
+        required
+      /><br /><br />
+
+      <label for="tanggal_lahir">Tanggal Lahir:</label><br />
+      <input
+        type="date"
+        id="tanggal_lahir"
+        name="tanggal_lahir"
+        required
+      /><br /><br />
+
+      Hobi:<br />
+      <input type="checkbox" id="membaca" name="hobi" value="Membaca" />
+      <label for="membaca">Membaca</label>
+      <input type="checkbox" id="olahraga" name="hobi" value="Olahraga" />
+      <label for="olahraga">Olahraga</label>
+      <input type="checkbox" id="musik" name="hobi" value="Musik" />
+      <label for="musik">Musik</label>
+      <input type="checkbox" id="traveling" name="hobi" value="Traveling" />
+      <label for="traveling">Traveling</label><br /><br />
+
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+
+      <input type="checkbox" id="persetujuan" name="persetujuan" required />
+      <label for="persetujuan">Saya menyetujui syarat dan ketentuan</label
+      ><br /><br />
+
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+
+    <footer>
+      <hr />
+      <br />
+      <p>&copy; 2025 Catatan Teknologi</p>
+      <br />
+    </footer>
+  </body>
+</html>
